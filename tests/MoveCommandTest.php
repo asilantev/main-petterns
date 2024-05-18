@@ -5,7 +5,7 @@ use App\Interfaces\MovableInterface;
 use App\Move\MoveCommand;
 use PHPUnit\Framework\TestCase;
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . 'vendor/autoload.php';
 
 class MoveCommandTest extends TestCase
 {

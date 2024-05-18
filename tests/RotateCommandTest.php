@@ -5,7 +5,7 @@ use App\Interfaces\RotatableInterface;
 use App\Rotate\RotateCommand;
 use PHPUnit\Framework\TestCase;
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . 'vendor/autoload.php';
 
 class RotateCommandTest extends TestCase
 {
