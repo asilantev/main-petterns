@@ -24,4 +24,9 @@ class MoveAdapter implements MovableInterface
     {
         $this->targetObject->setProperty('position', $position);
     }
+
+    public function setVelocity(Vector $velocity): void
+    {
+        $this->targetObject->setProperty('velocity', $velocity);
+    }
 }
